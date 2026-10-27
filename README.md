@@ -2,9 +2,13 @@
 プログラムワークショップⅣの4つ目の管理用です
 
 # 結果画像
+<img width="1919" height="1079" alt="スクリーンショット 2026-10-27 205305" src="https://github.com/user-attachments/assets/1919c714-02df-4470-80dc-52fd6d1fc784" />
 
-![第4回の結果](result.png)
-- 工夫した点：xxx
+# 工夫した点
+- Negateで光の向きを反転した
+- Blinn-Phongモデルでハイライトを追加した
+- 光の当たり具合（法線と光の向きの内積）をOne Minusで反転してAlphaに使うことで、明るい部分ほど透明になるようにした。
+
 
 # 進め方
 
